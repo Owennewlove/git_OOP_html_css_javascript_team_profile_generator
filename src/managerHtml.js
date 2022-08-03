@@ -6,8 +6,8 @@ function manageHtml(manager){
         <ul class="list-group">
           <li class="list-group-item">name: ${manager.name}</li>
           <li class="list-group-item">id:  ${manager.id}</li>
-          <li class="list-group-item">email: owen.newlove@gmail.com/li>
-          <li class="list-group-item">OfficeNumber: 123</li>
+          <li class="list-group-item">email: ${manager.email}</li>
+          <li class="list-group-item">Github: ${manager.github} </li>
            
         </ul>
       </div>
