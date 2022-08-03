@@ -171,7 +171,7 @@ function addIntern() {
 
         })
 
-    confirmNext()
+
 }
 
 function createHTML() {
