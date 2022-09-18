@@ -6,8 +6,8 @@ function engineerHtml(engineer){
         <ul class="list-group">
           <li class="list-group-item">name: ${engineer.name}</li>
           <li class="list-group-item">id:  ${engineer.id}</li>
-          <li class="list-group-item">email: ${engineer.email}</li>
-          <li class="list-group-item">Github: ${engineer.github}</li>
+          <li class="list-group-item"><a href="mailto:${engineer.email}">email: ${engineer.email}</a></li>
+          <li class="list-group-item"><a href="https://github.com/${engineer.github}">Github: ${engineer.github}</a> </li> 
            
         </ul>
       </div>

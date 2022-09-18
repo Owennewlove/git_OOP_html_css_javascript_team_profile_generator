@@ -6,7 +6,7 @@ function internHtml(intern){
         <ul class="list-group">
           <li class="list-group-item">name: ${intern.name}</li>
           <li class="list-group-item">id:  ${intern.id}</li>
-          <li class="list-group-item">email: ${intern.email}</li>
+          <li class="list-group-item"><a href="mailto:${intern.email}">email: ${intern.email}</a></li>
           <li class="list-group-item">School:${intern.school}</li>
            
         </ul>
